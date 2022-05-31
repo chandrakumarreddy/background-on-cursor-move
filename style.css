@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: black;
+}
+#cursor-fixed {
+  position: fixed;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 15vh;
+  filter: blur(10vh);
+  background-color: blue;
+  top: -7vh;
+  left: -8vh;
+}
